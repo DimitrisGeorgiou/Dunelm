@@ -1,0 +1,18 @@
+# Data – never upload
+data/
+*.xlsx
+*.xls
+*.csv
+*.parquet
+
+# Secrets
+.env
+*.key
+*.pem
+
+# Junk
+.ipynb_checkpoints/
+__pycache__/
+.DS_Store
+outputs/
+*.html
